@@ -40,7 +40,7 @@ const listDataId = (id) => {
     }
     
 }
-//show littel info
+//show little info
  const showInfoData = (id) => {
     const allData = loadData()
 
