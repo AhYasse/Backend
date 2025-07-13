@@ -1,5 +1,5 @@
 {
-  "name": "lec-3",
+  "name": "lec-4",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "yargs": "^17.7.2"
+    "request": "^2.88.2"
   }
 }
