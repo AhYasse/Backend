@@ -11,7 +11,7 @@ const forecast = (lat, long, callback) => {
         }else if(response.body.error){
             callback("Error: " + response.body.error.message, undefined)
         }else {
-            callback(undefined, "Weather in " + response.body.location.name + " it's " + response.body.current.condition.text  + " and temp is : "  + response.body.current.temp_c)
+            callback(undefined, "Weather in " + response.body.location.name + " it's " + response.body.current.condition.text)
         }
     })
 }

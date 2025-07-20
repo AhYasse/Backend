@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h2>{{>header}}</h2>
+    <h2>{{title}}</h2>
+    <p>{{des}}</p>
+    <h3>{{inst}}</h3>
+     <form id="form">
+        <input type="text" placeholder="Enter location" id="address" required>
+        <button>Search for weather</button>
+    </form>
+     <p id="error"></p>
+     <p id="forecast"></p>
+     <p id="location"></p>
+     <script src="/js/script.js"></script>
+    <h2>{{>footer}}</h2>
+</body>
+</html>
